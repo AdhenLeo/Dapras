@@ -10,6 +10,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Siswa</title>
     <link rel="stylesheet" href="tampilsiswa.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <style>
+        <?php
+            include 'tampilsiswa.css'
+        ?>
+    </style>
 </head>
 <body>
     <div class="menu">
@@ -42,6 +50,7 @@
                 echo "<td>".$sis [3]."</td>";
                 echo "<td>";
                 echo "<button><a href='formedit.php?id=".$sis['id_siswa']."'>Edit</a></button>";
+                echo "<a>        </a>";
                 echo "<button><a href='hapus.php?id=".$sis['id_siswa']."'>Hapus</a></button>";
                 echo "</td>";
             }

@@ -9,12 +9,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Barang</title>
+    <link rel="stylesheet" href="databarang.css">
+    <style>
+        <?php
+            include 'databarang.css'
+        ?>
+    </style>
 </head>
 <body>
-    <div>
+    <div class="menu">
         <h4>Nama Aplikasi</h4>
-        <div>
-            <div>
+        <div class="menu2">
+            <div class="isimenu">
                 <button><a href="tampilsiswa.php">Data Siswa</a></button> <br>
                 <button>Data Barang</button>
             </div>
@@ -41,6 +47,7 @@
                 echo "<td>".$bar['stock']."</td>";
                 echo "<td>";
                 echo "<button><a href='formeditbarang.php?idbar=".$bar['kode_barang']."'>Edit</a></button>";
+                echo "<a>     </a>";
                 echo "<button><a href='hapusbarang.php?idbar=".$bar['kode_barang']."'>Hapus</a></button>";
                 echo "</td>";
             }

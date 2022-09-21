@@ -34,6 +34,7 @@ a button{
     font-size: 15px;
     text-align: center;
     text-decoration: none;
+    cursor: pointer;
 }
 table{
     width: 1000px;
@@ -47,7 +48,7 @@ table{
     background-color: #7575CF;
     width: 200px;
     position: absolute;
-    height: 700px;
+    height: 1000px;
     color: white;
     top: 0;
     padding-top: 1px;
@@ -89,7 +90,7 @@ tr td{
 }
 table button:first-child{
     /* width: 60px; */
-    left: 10px;
+    right: 20px;
     border-radius: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -98,7 +99,7 @@ table button:first-child{
 }
 table button:last-child{
     /* width: 60px; */
-    left: 10px;
+    left: 20px;
     border-radius: 12px;
     font-weight: bold;
     text-decoration: none;
@@ -119,5 +120,5 @@ table button a{
 }
 td button{
     width: 100px;
-    height: 28px;
+    padding: 5px 15px;
 }

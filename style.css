@@ -1,0 +1,81 @@
+.isimenu button a {
+    text-decoration: none;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #d9dddc;
+}
+.menu{
+    background-color: #7575CF;
+    width: 200px;
+    position: absolute;
+    height: 100px;
+    color: white;
+    top: 0;
+    padding-top: 1px;
+}
+.isimenu button{
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 13px;
+    width: 170px;
+    height: 35px;
+    cursor: pointer;
+    font-size: 14px;
+    background-color: #ffffff;   
+}
+.isimenu button:hover{
+    color: white;
+    padding-left: 10%;
+    transition: 0,5s;
+    background: #7575CF;
+}
+.menu h4{
+    margin-left: 70px;
+    font-size: 18px;
+}
+.menu2{
+    background-color: #0b0b45;
+    padding-bottom: 700px;
+}
+form{
+    width: 1000px;
+    margin-left: 300px;
+    margin-top: 200px;
+    height: 200px;
+}
+p{
+    font-size: 18px;
+}
+form button{
+    margin-top: 20px;
+    background: #7575CF;
+    border-radius: 12px;
+    color: white;
+    width: 100px;
+    height: 28px;
+    font-size: 16px;
+    float: right;
+    margin-right: 10px;
+}
+form input{
+    width: 800px;
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+    float: right;
+    font-size: 16px;
+}
+h3{
+    color: black;
+    margin-left: 300px;
+    margin-top: 20px;
+    font-size: 40px;
+    font-weight: bold;
+}
+form button a{
+    text-decoration: none;
+    color: white;
+}

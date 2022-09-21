@@ -18,12 +18,18 @@ if(mysqli_num_rows($query) < 1 ){
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit data</title>
+    <link rel="stylesheet" href="formedit.css">
+    <style>
+        <?php
+            include 'formedit.css'
+        ?>
+    </style>
 </head>
 <body>
-    <div>
-        <h4>Nama Siswa</h4>
-        <div>
-            <div>
+    <div class="menu">
+        <h4>Nama Aplikasi</h4>
+        <div class="menu2">
+            <div class="isimenu">
             <button><a href="tampilsiswa.php">Data Siswa</a></button> <br>
             <button><a href="databarang.php">Data Barang</a></button>
             </div>
@@ -31,11 +37,12 @@ if(mysqli_num_rows($query) < 1 ){
     </div>
     <h3>Edit Data Siswa</h3>
     <form action="edit.php" method="post">
-        <p><label>id_siswa : <input value = "<?php echo $sis [0]?>" name="id_siswa"></label></p>
-        <p><label>nama_siswa : <input value = "<?php echo $sis [1]?>" name="nama_siswa"></label></p>
-        <p><label>kelas :  <input value = "<?php echo $sis [2]?>" name="kelas"></label></p>
-        <p><label>jurusan : <input value = "<?php echo $sis [3]?>" name="jurusan"></label></p>
-        <button type="submit" name="simpan" value="simpan">SIMPAN</button>
+        <p><label>Id Siswa : <input value = "<?php echo $sis [0]?>" name="id_siswa"></label></p>
+        <p><label>Nama Siswa : <input value = "<?php echo $sis [1]?>" name="nama_siswa"></label></p>
+        <p><label>Kelas :  <input value = "<?php echo $sis [2]?>" name="kelas"></label></p>
+        <p><label>Jurusan : <input value = "<?php echo $sis [3]?>" name="jurusan"></label></p>
+        <button><a href="tampilsiswa.php">Kembali</a></button>
+        <button type="submit" name="simpan" value="simpan">Simpan</button>
     </form>
 </body>
 </html>
