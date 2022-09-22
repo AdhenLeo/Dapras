@@ -21,7 +21,8 @@
 </head>
 <body>
     <div class="menu">
-    <h4>Nama Aplikasi</h4>
+            <img src="logo.jpg" alt="">
+            <h4>Dhen Sarpras</h4>
         <div class="menu2">
             <div class="isimenu">
                 <button>Data Siswa</button> <br>

@@ -10,6 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Barang</title>
     <link rel="stylesheet" href="databarang.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <style>
         <?php
             include 'databarang.css'
@@ -18,7 +21,8 @@
 </head>
 <body>
     <div class="menu">
-        <h4>Nama Aplikasi</h4>
+    <img src="logo.jpg" alt="">
+        <h4>Dhen Sarpras</h4>
         <div class="menu2">
             <div class="isimenu">
                 <button><a href="tampilsiswa.php">Data Siswa</a></button> <br>

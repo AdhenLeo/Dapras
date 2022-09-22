@@ -19,14 +19,22 @@ if(mysqli_num_rows($query) < 1 ){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit data</title>
     <link rel="stylesheet" href="formedit.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
     <style>
         <?php
             include 'formedit.css'
         ?>
+       
+        *{
+            font-family: 'Kanit', sans-serif;
+        }
     </style>
 </head>
 <body>
     <div class="menu">
+    <img src="logo.jpg" alt="">
         <h4>Nama Aplikasi</h4>
         <div class="menu2">
             <div class="isimenu">
